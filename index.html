@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./null.css">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Login Page</title>
+</head>
+<body>
+    <div id="container">
+        <div class="bg">
+
+            <p class="bg-text-alignment logo">BALA</p>
+            <div class="bg-text-alignment header-main">Welcome.<br>Start your journey<br>now with our<br>management<br>system!</div>
+        </div>
+
+        <div class="form-container">
+            <div class="form-content">
+                <div class="form-header-container">
+                    <p class="form-header" id="form-header">Create an account</p>
+                </div>
+    
+                <div class="form-items-container">
+                    <div class="email-items-container">
+                        <p class="form-input-header">Email</p>
+                        <input type="text" class="form-input-item" placeholder="Enter your email address">
+                    </div>
+                    <div class="password-items-container">
+                        <p class="form-input-header">Password <a class="password-problems-item"href="#">Forgot ?</a></p>
+                        <input type="password" class="form-input-item" id="password-value" placeholder="Enter your password">
+                        <i class="far fa-eye" id="password-eye-i"></i>
+                    </div>
+                </div>
+    
+                <div class="buttons-container">
+                    <div class="buttons-success">
+                        <button class="button-success" id="button-success">Create account</button>
+                    </div>
+    
+                    <div class="buttons-additional">
+                        <button class="button-additional"id="button-additional"><img src="./images/google.png" class="image-item">Continue with Google</button>
+                    </div>
+    
+                    <div class="buttons-extra" id="button-extra">
+                        <p id="form-switch-prefix">Already Have An Accout ? <a class="form-switch" id="form-switch" href="#">Log In</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
